@@ -28,6 +28,7 @@ O projeto foi construído separando a interface da camada de dados:
    - Utiliza a função `=FILTRO` combinada com Álgebra Booleana para consultar o backend com complexidade $O(1)$.
    - Exemplo da lógica de extração para a lista de presença:
      `=FILTRO(Tb_Alunos[Nome do Aluno]; (Tb_Alunos[Turma] = "lista_" & [célula com o valor da turma]) * (Tb_Alunos[Situação Aluno] = "ATIVO"); "Nenhum aluno ativo")`
+     Essa mesma lógica pode ser replicada para "puxar" dados de outras colunas das tabelas.
 
 ## Como Utilizar
 
@@ -37,7 +38,7 @@ A interface foi desenhada seguindo o princípio KISS (*Keep It Simple, Stupid*):
 3. Confirme se os nomes carregaram (o sistema filtra apenas alunos com status "ATIVO").
 4. Pressione `CTRL + P` para gerar o PDF ou enviar direto para a impressora.
 
-![Gravação de tela de 2026-02-22 23-37-38](https://github.com/user-attachments/assets/f5cca3c9-774a-4e8e-87c0-fc60e6d44792)
+![Gravação de tela de 2026-02-23 00-14-47](https://github.com/user-attachments/assets/1ce237e3-bda4-4a7f-a150-b1c5171478a0)
 
 
 ## Segurança e Manutenção
