@@ -2,11 +2,9 @@
 
 <img width="731" height="169" alt="image" src="https://github.com/user-attachments/assets/180864c9-e071-4474-b577-23c81f2f8b17" />
 
-
 Um sistema leve, seguro e performático desenvolvido inteiramente no Microsoft Excel (Web/Desktop) para automatizar a geração de listas de presença e relatórios para a gestão pedagógica. 
 
 Desenhado especificamente para a realidade de escolas públicas, este MVP elimina o trabalho manual de filtrar planilhas do EOL (Escola Online) e oferece uma interface amigável (UI) que simula um aplicativo web, sem custos adicionais de licenciamento ou consumo de APIs.
-
 
 ## O Problema
 Todo o mês o processo de gerar listas é realizado manualmente, desde a cópia dos dados do EOL até a própria formatação do arquivo. Além de gerar uma enorme demanda de retrabalho são gerados inúmeros arquivos que são usando apenas uma vez.
@@ -39,6 +37,9 @@ A interface foi desenhada seguindo o princípio KISS (*Keep It Simple, Stupid*):
 3. Confirme se os nomes carregaram (o sistema filtra apenas alunos com status "ATIVO").
 4. Pressione `CTRL + P` para gerar o PDF ou enviar direto para a impressora.
 
+[Gravação de tela de 2026-02-22 23-37-38.webm](https://github.com/user-attachments/assets/083f4b32-84ee-451b-ae53-c6ca0a4984d9)
+
+
 ## Segurança e Manutenção
 - **Proteção de Planilha:** Impede a quebra do layout e das fórmulas de matriz dinâmica.
 - **Proteção de Pasta de Trabalho:** Bloqueia a reexibição da aba contendo os dados sensíveis de todos os alunos da escola.
@@ -50,4 +51,9 @@ Este MVP prova o conceito e resolve a dor imediata. Versões futuras (V2) prevee
 - [ ] **Interface:** Criação do Frontend via Power Apps com checkboxes para seleção dinâmica de colunas.
 - [ ] **Automação:** Implementação de Power Automate para orquestrar a geração de documentos (Word Template para PDF) de forma assíncrona.
 
+## Licença
+Este projeto está sob a licença [MIT](https://choosealicense.com/licenses/mit/) - sinta-se livre para usar, modificar e distribuir. É uma iniciativa aberta, ideal para ser replicada e adaptada por outras unidades da rede pública de ensino.
 
+## Agradecimentos e Ferramentas
+* Idealização, lógica de negócio e testes em ambiente escolar por Rjj18.
+* Estruturação arquitetural, *code review* das matrizes dinâmicas e redação desta documentação realizadas com o suporte de IA (Google Gemini), atuando como Arquiteto de Soluções em *Pair Programming*.
