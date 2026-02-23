@@ -37,7 +37,7 @@ A interface foi desenhada seguindo o princípio KISS (*Keep It Simple, Stupid*):
 3. Confirme se os nomes carregaram (o sistema filtra apenas alunos com status "ATIVO").
 4. Pressione `CTRL + P` para gerar o PDF ou enviar direto para a impressora.
 
-[Gravação de tela de 2026-02-22 23-37-38.webm](https://github.com/user-attachments/assets/083f4b32-84ee-451b-ae53-c6ca0a4984d9)
+![Gravação de tela de 2026-02-22 23-37-38](https://github.com/user-attachments/assets/f5cca3c9-774a-4e8e-87c0-fc60e6d44792)
 
 
 ## Segurança e Manutenção
