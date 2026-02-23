@@ -1,6 +1,9 @@
 # Gerador Dinâmico de Listas Escolares (MVP)
 
-<img width="731" height="169" alt="image" src="https://github.com/user-attachments/assets/180864c9-e071-4474-b577-23c81f2f8b17" />
+<figure>
+  <img width="731" height="169" alt="Gerador Dinâmico de Listas Escolares (MVP) — banner" src="https://github.com/user-attachments/assets/180864c9-e071-4474-b577-23c81f2f8b17" />
+  <figcaption>Banner do projeto (MVP).</figcaption>
+</figure>
 
 Um sistema leve, seguro e performático desenvolvido inteiramente no Microsoft Excel (Web/Desktop) para automatizar a geração de listas de presença e relatórios para a gestão pedagógica. 
 
@@ -38,13 +41,17 @@ A interface foi desenhada seguindo o princípio KISS (*Keep It Simple, Stupid*):
 3. Confirme se os nomes carregaram (o sistema filtra apenas alunos com status "ATIVO").
 4. Pressione `CTRL + P` para gerar o PDF ou enviar direto para a impressora.
 
-![Gravação de tela de 2026-02-23 00-18-03](https://github.com/user-attachments/assets/b2063cac-4b5f-4b27-8aa7-b8606c4ee56e)
-
+<figure>
+  <img alt="Gravação de tela demonstrando a seleção de turma e geração automática da lista" src="https://github.com/user-attachments/assets/b2063cac-4b5f-4b27-8aa7-b8606c4ee56e" />
+  <figcaption>Demonstração do uso: seleção da turma no menu e geração instantânea da lista.</figcaption>
+</figure>
 
 ### Tela de Impressão
-<img width="820" height="839" alt="Captura de tela de 2026-02-23 00-18-51" src="https://github.com/user-attachments/assets/fbac3133-be39-49cf-91fd-009b0f091c5a" />
 
-
+<figure>
+  <img width="420" alt="Tela de impressão (preview)" src="https://github.com/user-attachments/assets/fbac3133-be39-49cf-91fd-009b0f091c5a" />
+  <figcaption>Pré-visualização de impressão com layout pronto para PDF/impressora.</figcaption>
+</figure>
 
 ## Segurança e Manutenção
 - **Proteção de Planilha:** Impede a quebra do layout e das fórmulas de matriz dinâmica.
